@@ -1,3 +1,5 @@
+/* https://getcssscan.com/css-buttons-examples */
+/* https://freefrontend.com/css-animated-backgrounds/ */
 header{
     text-align: right;
 }
@@ -73,6 +75,14 @@ h1{
     color: #f6a05a;
     margin: 30px 0 50px;
 }
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
 .gallery{
     margin: 10px 120px;
 }
@@ -80,12 +90,10 @@ h1{
     width: 360px;
     height: 270px;
     padding: 15px;
-    filter: grayscale(75%);
     transition: 1s;
 }
 .gallery img:hover{
-    filter: grayscale(0);
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 footer{
     padding: 150px;
